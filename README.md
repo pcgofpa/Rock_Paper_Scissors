@@ -9,32 +9,12 @@ This is a rock paper scissors game that was created as part of the #100DaysOfCod
 
 <h2> Directions </h2>
 
-0 = Rock
-rock = '''
-    _______
----'   ____)
-      (_____)
-      (_____)
-      (____)
----.__(___)
-'''
-
+0 = Rock 
 1 = Paper
-paper = '''
-    _______
----'   ____)____
-          ______)
-          _______)
-         _______)
----.__________)
-'''
-
 2 = Scissors
-scissors = '''
-    _______
----'   ____)____
-          ______)
-       __________)
-      (____)
----.__(___)
-'''
+
+paper > rock
+
+scissors > paper
+
+rock > scissors
